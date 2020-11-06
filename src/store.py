@@ -1,12 +1,12 @@
-from appdirs import user_data_dir
+import pickle
 from pathlib import Path
 from typing import Optional, AnyStr
+
+from appdirs import user_data_dir
 from requests.cookies import RequestsCookieJar
-import pickle
 
 
 class Store:
-
     dir: Path
 
     def __init__(self):

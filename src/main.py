@@ -3,7 +3,6 @@ from .store import Store
 
 
 class ZhiXueBot:
-
     store: Store
 
     auth: Auth

@@ -1,7 +1,7 @@
 from requestium import Session
+from requests import Request
 from selenium.webdriver.support.expected_conditions import url_matches
 from selenium.webdriver.support.wait import WebDriverWait
-from requests import Request
 
 from .store import Store
 
